@@ -128,3 +128,88 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build directories
+dist/
+build/
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask cache
+instance/
+*.pyc
+
+# Django stuff:
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+docker-compose.override.yml
+
+# Coverage reports
+coverage/
+*.cover
+*.py,cover
+.coverage*
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# pytest
+.cache
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+pylint.log
+
+# Other
+.idea/
