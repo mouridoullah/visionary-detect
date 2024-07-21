@@ -213,3 +213,7 @@ pylint.log
 
 # Other
 .idea/
+
+*.mp4
+*.png 
+*.jpg
