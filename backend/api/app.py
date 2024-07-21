@@ -1,0 +1,13 @@
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    data = request.json
+    image_url = data.get('image_url')
+    # Implémenter la logique de prédiction ici
+    return jsonify({'prediction': 'dummy_prediction'})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
